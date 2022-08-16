@@ -11,6 +11,14 @@
 		7708E1FA289493F90063E052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E1F9289493F90063E052 /* ContentView.swift */; };
 		7708E1FC289493FB0063E052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7708E1FB289493FB0063E052 /* Assets.xcassets */; };
 		7708E1FF289493FB0063E052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7708E1FE289493FB0063E052 /* Preview Assets.xcassets */; };
+		7708E206289495C60063E052 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7708E205289495C60063E052 /* GoogleService-Info.plist */; };
+		7708E22E289A1A3C0063E052 /* WinesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E22D289A1A3C0063E052 /* WinesViewModel.swift */; };
+		7708E231289A1DE90063E052 /* WineCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E230289A1DE90063E052 /* WineCollectionsView.swift */; };
+		7708E234289A23080063E052 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E233289A23080063E052 /* Wine.swift */; };
+		7708E237289B183C0063E052 /* WineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E236289B183C0063E052 /* WineViewModel.swift */; };
+		7708E239289B19A00063E052 /* WineAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E238289B19A00063E052 /* WineAddView.swift */; };
+		7708E243289B7DD30063E052 /* WineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7708E242289B7DD30063E052 /* WineDetailView.swift */; };
+		B8CDA3E74368BE8D6519DB48 /* Pods_Vino_mio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE132895F98E266771E45D3 /* Pods_Vino_mio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,16 @@
 		7708E1F9289493F90063E052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7708E1FB289493FB0063E052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7708E1FE289493FB0063E052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7708E205289495C60063E052 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7708E22D289A1A3C0063E052 /* WinesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinesViewModel.swift; sourceTree = "<group>"; };
+		7708E230289A1DE90063E052 /* WineCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCollectionsView.swift; sourceTree = "<group>"; };
+		7708E233289A23080063E052 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		7708E236289B183C0063E052 /* WineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineViewModel.swift; sourceTree = "<group>"; };
+		7708E238289B19A00063E052 /* WineAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineAddView.swift; sourceTree = "<group>"; };
+		7708E242289B7DD30063E052 /* WineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDetailView.swift; sourceTree = "<group>"; };
+		8488C935A3C6822B3BFC978A /* Pods-Vino mio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vino mio.debug.xcconfig"; path = "Target Support Files/Pods-Vino mio/Pods-Vino mio.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D63FA82E934A11CA88AF35 /* Pods-Vino mio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vino mio.release.xcconfig"; path = "Target Support Files/Pods-Vino mio/Pods-Vino mio.release.xcconfig"; sourceTree = "<group>"; };
+		FCE132895F98E266771E45D3 /* Pods_Vino_mio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vino_mio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8CDA3E74368BE8D6519DB48 /* Pods_Vino_mio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3C7524659B931587B43EBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8488C935A3C6822B3BFC978A /* Pods-Vino mio.debug.xcconfig */,
+				D0D63FA82E934A11CA88AF35 /* Pods-Vino mio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73773EA6AB9AFADA2C007855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE132895F98E266771E45D3 /* Pods_Vino_mio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7708E1EB289493F90063E052 = {
 			isa = PBXGroup;
 			children = (
 				7708E1F6289493F90063E052 /* Vino mio */,
 				7708E1F5289493F90063E052 /* Products */,
+				0F3C7524659B931587B43EBD /* Pods */,
+				73773EA6AB9AFADA2C007855 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +89,12 @@
 		7708E1F6289493F90063E052 /* Vino mio */ = {
 			isa = PBXGroup;
 			children = (
+				7708E232289A22F80063E052 /* Models */,
+				7708E22F289A1DB20063E052 /* Views */,
+				7708E22C289A19FD0063E052 /* ViewModels */,
 				7708E1F7289493F90063E052 /* Vino_mioApp.swift */,
-				7708E1F9289493F90063E052 /* ContentView.swift */,
 				7708E1FB289493FB0063E052 /* Assets.xcassets */,
+				7708E205289495C60063E052 /* GoogleService-Info.plist */,
 				7708E1FD289493FB0063E052 /* Preview Content */,
 			);
 			path = "Vino mio";
@@ -67,6 +108,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7708E22C289A19FD0063E052 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7708E22D289A1A3C0063E052 /* WinesViewModel.swift */,
+				7708E236289B183C0063E052 /* WineViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7708E22F289A1DB20063E052 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7708E1F9289493F90063E052 /* ContentView.swift */,
+				7708E230289A1DE90063E052 /* WineCollectionsView.swift */,
+				7708E238289B19A00063E052 /* WineAddView.swift */,
+				7708E242289B7DD30063E052 /* WineDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7708E232289A22F80063E052 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7708E233289A23080063E052 /* Wine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7708E202289493FB0063E052 /* Build configuration list for PBXNativeTarget "Vino mio" */;
 			buildPhases = (
+				FC0F0FA0A2E1BE12CE444415 /* [CP] Check Pods Manifest.lock */,
 				7708E1F0289493F90063E052 /* Sources */,
 				7708E1F1289493F90063E052 /* Frameworks */,
 				7708E1F2289493F90063E052 /* Resources */,
+				8CED73FB63ACF11E0DE062C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +198,67 @@
 			files = (
 				7708E1FF289493FB0063E052 /* Preview Assets.xcassets in Resources */,
 				7708E1FC289493FB0063E052 /* Assets.xcassets in Resources */,
+				7708E206289495C60063E052 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CED73FB63ACF11E0DE062C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vino mio/Pods-Vino mio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vino mio/Pods-Vino mio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vino mio/Pods-Vino mio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0F0FA0A2E1BE12CE444415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vino mio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7708E1F0289493F90063E052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7708E243289B7DD30063E052 /* WineDetailView.swift in Sources */,
+				7708E239289B19A00063E052 /* WineAddView.swift in Sources */,
 				7708E1FA289493F90063E052 /* ContentView.swift in Sources */,
+				7708E237289B183C0063E052 /* WineViewModel.swift in Sources */,
+				7708E234289A23080063E052 /* Wine.swift in Sources */,
 				7708E1F8289493F90063E052 /* Vino_mioApp.swift in Sources */,
+				7708E22E289A1A3C0063E052 /* WinesViewModel.swift in Sources */,
+				7708E231289A1DE90063E052 /* WineCollectionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +381,7 @@
 		};
 		7708E203289493FB0063E052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8488C935A3C6822B3BFC978A /* Pods-Vino mio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +411,7 @@
 		};
 		7708E204289493FB0063E052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D63FA82E934A11CA88AF35 /* Pods-Vino mio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

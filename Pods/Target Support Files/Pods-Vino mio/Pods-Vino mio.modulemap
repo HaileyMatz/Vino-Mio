@@ -1,0 +1,6 @@
+framework module Pods_Vino_mio {
+  umbrella header "Pods-Vino mio-umbrella.h"
+
+  export *
+  module * { export * }
+}
